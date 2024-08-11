@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:visibility="visible"
+    tools:context=".Screen5"
+    tools:visibility="visible"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="307dp"
+        android:layout_height="189dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/logo1"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="115dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/search"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="115dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="56dp"
+        android:src="@drawable/profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/profilebutton"
+        android:layout_width="115dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/cyanbutton"
+        android:fontFamily="@font/paytone_one"
+        android:text="PROFILE"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/searchbutton"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="115dp"
+        android:layout_height="116dp"
+        android:src="@drawable/logout"
+        app:layout_constraintBottom_toTopOf="@+id/logoutbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profilebutton"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/logoutbutton"
+        android:layout_width="115dp"
+        android:layout_height="53dp"
+        android:background="@drawable/cyanbutton"
+        android:fontFamily="@font/paytone_one"
+        android:text="LOGOUT"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <Button
+        android:id="@+id/searchbutton"
+        android:layout_width="115dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="2dp"
+        android:background="@drawable/cyanbutton"
+        android:fontFamily="@font/paytone_one"
+        android:text="SEARCH"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView7"
+        app:layout_constraintEnd_toStartOf="@+id/profilebutton"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.504"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck" /><![CDATA[
+
+    />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]]>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="115dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/cyanbutton"
+        android:fontFamily="@font/paytone_one"
+        android:text="QUERY ??"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toEndOf="@+id/logoutbutton"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="97dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/profilebutton"
+        app:layout_constraintVertical_bias="0.703"
+        app:srcCompat="@drawable/contact"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

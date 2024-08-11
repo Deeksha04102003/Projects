@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Screen10">
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/paytone_one"
+        android:text="SHIPPING DETAILS"
+        android:textColor="#0DA1D4"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.712"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="104dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.99"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView53"
+        app:srcCompat="@drawable/s1" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:drawableLeft="@drawable/profile"
+        android:drawablePadding="5dp"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:paddingLeft="4dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView23" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress3"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/email__1_"
+        android:drawablePadding="5dp"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="4dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="158dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/BLU"
+        android:fontFamily="@font/paytone_one"
+        android:text="+ Add Address"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress3"
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="71dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView53"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/m" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="326dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/cart"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.417"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <EditText
+        android:id="@+id/editTextText10"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:drawableLeft="@drawable/plus"
+        android:drawablePadding="5dp"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:ems="10"
+        android:hint="Pin Code"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="123dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/cyanbutton"
+        android:text="Proceed"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText10"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText11"
+        android:layout_width="326dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/contact"
+        android:drawablePadding="5dp"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="text"
+        android:paddingLeft="4dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/button11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText10"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
+        tools:visibility="invisible" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

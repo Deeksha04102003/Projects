@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:visibility="visible"
+    tools:context=".Screen4"
+    tools:visibility="visible">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="234dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/logo1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/paytone_one"
+        android:text="@string/sign_up_here"
+        android:textAlignment="center"
+        android:textColor="#0DA1D4"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/imageView2"
+        app:layout_constraintStart_toStartOf="@id/imageView2"
+        app:layout_constraintTop_toBottomOf="@id/imageView2"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:drawableStart="@drawable/user"
+        android:drawablePadding="15dp"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:paddingStart="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@id/textView4"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@id/textView4"
+        app:layout_constraintTop_toBottomOf="@id/textView4"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:drawableStart="@drawable/email__1_"
+        android:drawablePadding="15dp"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:ems="10"
+        android:hint="@string/email1"
+        android:inputType="textEmailAddress"
+        android:paddingStart="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@id/editTextText"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/editTextText"
+        app:layout_constraintTop_toBottomOf="@id/editTextText"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="15dp"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:ems="10"
+        android:hint="@string/password1"
+        android:inputType="textPassword"
+        android:paddingStart="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@id/editTextTextEmailAddress2"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="@id/editTextTextEmailAddress2"
+        app:layout_constraintTop_toBottomOf="@id/editTextTextEmailAddress2"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/contact"
+        android:drawablePadding="12dp"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:hint="PHONE NUMBER"
+        android:inputType="phone"
+        android:paddingStart="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="@id/editTextTextEmailAddress2"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="@id/editTextTextEmailAddress2"
+        app:layout_constraintTop_toBottomOf="@id/editTextTextPassword2"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signupbutton"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/cyanbutton"
+        android:fontFamily="@font/paytone_one"
+        android:text="SIGN UP"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhoneNumber"
+        tools:ignore="MissingConstraints,TextSizeCheck,TextContrastCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/ahbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/paytone_one"
+        android:text="@string/already_have_an_account"
+        android:textColor="#0DA1D4"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signupbutton"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <RelativeLayout
+        android:id="@+id/otpLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPhoneNumber"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextPhoneNumber"
+        tools:ignore="MissingConstraints">
+
+        <!-- OTP EditText -->
+        <EditText
+            android:id="@+id/editTextOTP"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:paddingStart="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:hint="Enter OTP"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:fontFamily="@font/paytone_one"
+            android:elevation="@dimen/cardview_compat_inset_shadow"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="true"/>
+
+        <!-- Verify OTP Button -->
+        <Button
+            android:id="@+id/verifyOtpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextOTP"
+            android:layout_marginTop="6dp"
+            android:text="Verify"
+            android:background="@drawable/cyanbutton"
+            android:textSize="14sp"
+            android:padding="8dp"
+            android:fontFamily="@font/paytone_one"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintStart_toStartOf="@id/editTextOTP"/>
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:visibility="visible"
+    tools:context=".Screen2"
+    tools:visibility="visible">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="310dp"
+        android:layout_height="241dp"
+        android:layout_marginTop="104dp"
+        android:contentDescription="@string/main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/m"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="311dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/paytone_one"
+        android:text="@string/delivering_health_to_nyour_doorstep"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#0DA1D4"
+        android:textColorHighlight="@color/cyan"
+        android:textColorHint="@color/black"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        tools:ignore="TextSizeCheck,TextContrastCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextbutton"
+        android:layout_width="169dp"
+        android:layout_height="70dp"
+        android:background="@drawable/cyanbutton"
+        android:fontFamily="@font/paytone_one"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.269"
+        tools:ignore="TextContrastCheck"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:fontFamily="@font/paytone_one"
+        android:text="@string/design_by_ndeeksha_s"
+        android:textAlignment="center"
+        android:textColor="#0DA1D4"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/nextbutton"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/nextbutton"
+        tools:ignore="MissingConstraints,TextContrastCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>
